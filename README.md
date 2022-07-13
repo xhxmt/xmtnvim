@@ -1,0 +1,2 @@
+# xmtnvim
+my neovim config
