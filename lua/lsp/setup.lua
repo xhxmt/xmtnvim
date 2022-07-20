@@ -6,7 +6,7 @@ local lsp_installer = require("nvim-lsp-installer")
 -- https://github.com/williamboman/nvim-lsp-installer#available-lsps
 local servers = {
     --sumneko_lua = require("lsp.config.lua"), -- lua/lsp/config/lua.lua
-    clangd=require 'lspconfig'.clangd.setup{on_attach=attach},
+    --clangd=require 'lspconfig'.clangd.setup{on_attach=attach},
     --jedi_language_server=require("lsp.config.jedi")
     jsonls=require("lsp.config.jsonls"),
     pyright = require("lsp.config.pyright")
